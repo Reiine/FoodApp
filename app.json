@@ -2,12 +2,12 @@
   "expo": {
     "name": "FoodApp",
     "slug": "FoodApp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tw.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/tw.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/tw.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.reiine.foodapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/tw.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d28f62a-40a3-48de-a11f-6522d9b2582b"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6d28f62a-40a3-48de-a11f-6522d9b2582b"
     }
   }
 }
